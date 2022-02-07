@@ -1,115 +1,143 @@
 [[duf]]
 arch = "aarch64"
-git-tree-sha1 = "27f5ae72f55e885257a8759e36365ebd4bbae2b3"
-libc = "glibc"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "2a98efc53a6449b0cc6ce387d020041b2c66c2e40972f8245ffc05c24faa5a5f"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.aarch64-linux-gnu.tar.gz"
-[[duf]]
-arch = "aarch64"
-git-tree-sha1 = "3ee54f3d0c21dc0ea78fe8f20d73a40926940b23"
-libc = "musl"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "c749ec99ab0d64b9e8688c9da8dffb77175b380812086ecaf4369fab8d7ddfd3"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.aarch64-linux-musl.tar.gz"
-[[duf]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d71ac1568ab1e93a24264c9f5810354d48897832"
-libc = "glibc"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "b324fb902ff5528d9da2ded2bf2fad21fe611edaee954bd6fd4ae548cc170636"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.armv7l-linux-gnueabihf.tar.gz"
-[[duf]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6b03061f513f54843f99d1105035333ea8e75914"
-libc = "musl"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "8a225134b04f9663ea5a9dd2fab62820ad08cddfe4aac7f27126c0bfd5c0236f"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.armv7l-linux-musleabihf.tar.gz"
-[[duf]]
-arch = "i686"
-git-tree-sha1 = "99aff826e0eb70473ad872d6a20e79c99bf9d34e"
-libc = "glibc"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "3cb2d82f3089555506c7a1e31c0a3e2c5e11cc77aa2f795422624d7a273187b4"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.i686-linux-gnu.tar.gz"
-[[duf]]
-arch = "i686"
-git-tree-sha1 = "b3bac674ff01dda4520cc754420a6c099959885c"
-libc = "musl"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "d0dc3ab3aa22ec0bac0a27fd3c10589284bb1bade75406785eeac06dd5944ee6"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.i686-linux-musl.tar.gz"
-[[duf]]
-arch = "i686"
-git-tree-sha1 = "9f81384492cd6ab4f5983d8699576fa2ec5324af"
-os = "windows"
-
-    [[duf.download]]
-    sha256 = "020d13b006c293287e7af792ceb642af8213a9647225b813f719e91093f8f021"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.i686-w64-mingw32.tar.gz"
-[[duf]]
-arch = "powerpc64le"
-git-tree-sha1 = "e421b1d1139b4dcc7f6f2ece6560bc4946d6c044"
-libc = "glibc"
-os = "linux"
-
-    [[duf.download]]
-    sha256 = "c3fe9c16135bd70ad287ef103c184798c7bafd52b31a77b5d66a3939c5b492d0"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.powerpc64le-linux-gnu.tar.gz"
-[[duf]]
-arch = "x86_64"
-git-tree-sha1 = "0964f2050b756380485bbe663a919861e6534104"
+git-tree-sha1 = "79728015e567c1ac90cf0f182b12979505ef3d66"
 os = "macos"
 
     [[duf.download]]
-    sha256 = "5dc494f81814d63ccc098f4eadff186342263577300fbf42c9d64bcded449ba2"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "f1b82e139b83db480c03b83bf1decab609578cd1621b82ebd03ed1cf7a6b611a"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.aarch64-apple-darwin.tar.gz"
 [[duf]]
-arch = "x86_64"
-git-tree-sha1 = "d1cc95e61ff360fd8d71e84712b6e9367ed1f768"
+arch = "aarch64"
+git-tree-sha1 = "fcb92b95f2a36c606286c92b91a2d053f1125adc"
 libc = "glibc"
 os = "linux"
 
     [[duf.download]]
-    sha256 = "56f6e82b27a8f5fce7c96972f84d6b70da2243fdc78eb8d19c00079f58c5894c"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "9e913a4914d261aac045b31383dd20b9b527532f749b73bf94aa1d80e9190a0d"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.aarch64-linux-gnu.tar.gz"
 [[duf]]
-arch = "x86_64"
-git-tree-sha1 = "b2bd14783b08ad1d9036366e03efe8cf033e7954"
+arch = "aarch64"
+git-tree-sha1 = "a057fc1e39eb3883459a6f282c27a54154a5a2a0"
 libc = "musl"
 os = "linux"
 
     [[duf.download]]
-    sha256 = "936fa81ad5663f75cf11b9dc539fa3a1933ecdada10e63916e165895b5ee544f"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.x86_64-linux-musl.tar.gz"
+    sha256 = "2718471c15819e1e110f0c0ad4b765ed83aa573fc019fa1203c713cccbe416bb"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.aarch64-linux-musl.tar.gz"
 [[duf]]
-arch = "x86_64"
-git-tree-sha1 = "7a4e3ecb97aa407855244c1f665201e1bd50e4fb"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0b208e5058cdddd2cd6c8668ab78b3c5538db22e"
+libc = "glibc"
+os = "linux"
 
     [[duf.download]]
-    sha256 = "1435072cc6f6968162eae3fffcec43091e17a57041eaeb942281a038fd4ce7e1"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "d0cdbe06a240c39c0cec24b3debe1f9472268eeed9f50cf4e2f2fb8aa78b6b5b"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.armv6l-linux-gnueabihf.tar.gz"
 [[duf]]
-arch = "x86_64"
-git-tree-sha1 = "2744d576b99c9a728dd96a9e9133465be219da3b"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7f55b2da255d07f461d3990ffb649c3f2cc56fa5"
+libc = "musl"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "5d3158c5ce94c042f91517b53e036a9682137a248faf89633d192bc3b502c8fc"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.armv6l-linux-musleabihf.tar.gz"
+[[duf]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5566df11cedbe76343d3fd3a17cd655fe99e3904"
+libc = "glibc"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "3925c6500baee442acdfcdfc938232699f33964a404a86926cbf59f0611fe0e6"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.armv7l-linux-gnueabihf.tar.gz"
+[[duf]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c6498501d5d90fa5baedec660711bf745ede4eb8"
+libc = "musl"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "fd166efe2de3dbd46bf51381ab826e4d1d76f128344921df9e07777a8821170e"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.armv7l-linux-musleabihf.tar.gz"
+[[duf]]
+arch = "i686"
+git-tree-sha1 = "96a9f21348a7432bddc96d92a2d8f3c70e321838"
+libc = "glibc"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "61243e176e8cd7b114675c48d91144829caea2d9406897cf1072d8b073901888"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.i686-linux-gnu.tar.gz"
+[[duf]]
+arch = "i686"
+git-tree-sha1 = "963d2b9cb7f7c485e4db04a81406537f2d2d81dc"
+libc = "musl"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "0d9e1ff8d32c4dc0279aaafd35cbe9eb71f6f4289baebbd701f4d92d25a8733b"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.i686-linux-musl.tar.gz"
+[[duf]]
+arch = "i686"
+git-tree-sha1 = "294bd242e79ac9e41bb26de3fd9cac99cc353ba7"
 os = "windows"
 
     [[duf.download]]
-    sha256 = "76410c8a25169703dd281d09ec4aacbba5a25567b77092bff77df5d1bbe3be17"
-    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.5.0+0/duf.v0.5.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "36194a8ab0ae688ceac399ba0fc4c30e267020c631bf2745f68e0e92a1b178ba"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.i686-w64-mingw32.tar.gz"
+[[duf]]
+arch = "powerpc64le"
+git-tree-sha1 = "728f759d0ab6574403827bd7b7fd7cab925f5445"
+libc = "glibc"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "0fd6a731066d705123759de52cc4d7b0d6a30bf9a99a1a2bc484d0302a09048a"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.powerpc64le-linux-gnu.tar.gz"
+[[duf]]
+arch = "x86_64"
+git-tree-sha1 = "09a39c4df984b185ad93596f9eec0c4a91633352"
+os = "macos"
+
+    [[duf.download]]
+    sha256 = "1a859f1541936d1877794288826cb3900ccab320c20896149c6f223bf6181642"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.x86_64-apple-darwin.tar.gz"
+[[duf]]
+arch = "x86_64"
+git-tree-sha1 = "5655e9b4fca33effcdd9d8a74c229da21852a1f3"
+libc = "glibc"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "63e307193c844fa5b7ea6b7d381e889df593210a82d4bc2ade84c3e0b360a89e"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.x86_64-linux-gnu.tar.gz"
+[[duf]]
+arch = "x86_64"
+git-tree-sha1 = "5c86589163736ca6244283b39b207506652e1695"
+libc = "musl"
+os = "linux"
+
+    [[duf.download]]
+    sha256 = "6a95d8e2f0d0c58b05025ec330c558b6d8062f25d7c2db65995f13b756ff3bfb"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.x86_64-linux-musl.tar.gz"
+[[duf]]
+arch = "x86_64"
+git-tree-sha1 = "3b0e7db660076ba785b07bdd8918d235ff746073"
+os = "freebsd"
+
+    [[duf.download]]
+    sha256 = "192aefcbc6f69b30b727687dc06642fb226063cf128a36e0476b9ccfbb7e58b7"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.x86_64-unknown-freebsd.tar.gz"
+[[duf]]
+arch = "x86_64"
+git-tree-sha1 = "99b2cf06cb4d1c7ae4b3b5a9d0954e96e3da0d97"
+os = "windows"
+
+    [[duf.download]]
+    sha256 = "f2f5f64836d4fbdfc38261cef0bef611dc8d819af0a06a2bc43924e4d50b5304"
+    url = "https://github.com/JuliaBinaryWrappers/duf_jll.jl/releases/download/duf-v0.8.0+0/duf.v0.8.0.x86_64-w64-mingw32.tar.gz"
